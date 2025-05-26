@@ -20,13 +20,13 @@
 
       <ModalFooter>
         <div class="ml-auto">
-          <LinkButton
+          <NovaButton
             type="button"
             class="mr-4"
             @click.prevent="$emit('cancel')"
           >
             {{ __("Cancel") }}
-          </LinkButton>
+          </NovaButton>
           <NovaButton
             type="submit"
             state="danger"
